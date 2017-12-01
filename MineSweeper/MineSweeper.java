@@ -377,7 +377,7 @@ public class MineSweeper
 			return true;
 		}else if(board[n1][n2] == '@' && flagOrClear == 1)//if box holds a bomb and trying to flag
 		{
-			System.out.println("fucker");
+			
 			return true;
 		}else if(board[n1][n2] == 'X' && flagOrClear == 2)//if box is flagged and trying to unflag
 		{
